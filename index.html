@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>index</title>
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	</head>
+	<body onresize="resize()">
+		<div id="top">
+			<div id="stripe"></div>
+			<img id="left" src="images/left-angle.png">
+			<img id="left-2" src="images/left-angle.png">
+			<img id="right" src="images/right-angle.png">
+			<img id="right-2" src="images/right-angle.png">
+			<img id="logo" onclick="playSound();" src="images/logo.png">
+		</div>
+		<img src="images/square.png" id="left-side-2">
+		<img src="images/square.png" id="top-side-2">
+		<img src="images/square.png" id="right-side-2">
+		<img src="images/square.png" id="bottom-side-2">
+		<img src="images/square.png" id="left-side">
+		<img src="images/square.png" id="top-side">
+		<img src="images/square.png" id="right-side">
+		<img src="images/square.png" id="bottom-side">
+		<img class="corner-2" id="top-left-corner-2" src="images/left-angle-2.png">
+		<img class="corner-2" id="top-right-corner-2" src="images/right-angle-2.png">
+		<img class="corner-2" id="bottom-right-corner-2" src="images/right-angle.png">
+		<img class="corner-2" id="bottom-left-corner-2" src="images/left-angle.png">
+		<img class="corner" id="top-left-corner" src="images/left-angle-2.png">
+		<img class="corner" id="top-right-corner" src="images/right-angle-2.png">
+		<img class="corner" id="bottom-right-corner" src="images/right-angle.png">
+		<img class="corner" id="bottom-left-corner" src="images/left-angle.png">
+        <div id="center">
+			<div id="center-container">
+				<div class="header">Website Name:</div><br />
+				<input class="input"><br />
+				<div class="header">Student Name:</div><br />
+				<input class="input"><br /><br />
+			</div>
+        </div>
+		<canvas id="canvas"></canvas>
+		<div id="visit-button" class="button" onclick="visit();">Visit Site!</div>
+		<audio id="audio" src='bazinga.mp3'></audio>
+		<audio id="audio-2" src='damage.mp3'></audio>
+	</body>
+	<script src="js/index.js"></script>
+</html>

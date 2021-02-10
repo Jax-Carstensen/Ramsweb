@@ -1,0 +1,238 @@
+#top{
+    position:fixed;
+    top:0px;
+    left:10vw;
+    width:80vw;
+    text-align:center;
+    height:10vh;
+    line-height:10vh;
+    font-weight:900;
+    font-size:150%;
+    background-color:white;
+    text-shadow:1px 1px 1px white;
+	box-shadow:0px 0.15vh 0px 0px black;
+}
+#visit-button{
+	position:fixed;
+	width:10vw;
+	height:2vh;
+	left:45vw;
+	top:65vh;
+}
+#canvas{
+	position:fixed;
+	top:57vh;
+	left:30vw;
+}
+.button{
+	z-index:999;
+}
+#stripe{
+	position:fixed;
+	top:1vh;
+	width:50vw;
+	left:25vw;
+	height:8vh;
+	background-color: black;
+	z-index:90;
+}
+#left-2{
+	position:fixed;
+	height: 8vh;
+	right:75vw;
+	top:1vh;
+	filter: invert(100%);
+	width:8vw;
+}
+#right-2{
+	position:fixed;
+	height: 8vh;
+	right:17vw;
+	top:1vh;
+	filter: invert(100%);
+	width:8vw;
+}
+#left{
+	position:fixed;
+	left:0px;
+	top:0px;
+	height:10vh;
+	width:10vw;
+}
+#right{
+	position:fixed;
+	right:0px;
+	top:0px;
+	height:10vh;
+	width:10vw;
+}
+.corner{
+	width:5vw;
+	height:5vh;
+	position:fixed;
+}
+#top-left-corner{
+	right:75vw;
+	top:20vh;
+}
+.header{
+	font-size:110%;
+	display:inline-block;
+}
+#top-right-corner{
+	left:75vw;
+	bottom:75vh;
+}
+#bottom-left-corner{
+	right:75vw;
+	bottom:20vh;
+}
+#bottom-right-corner{
+	right:20vw;
+	bottom:20vh;
+}
+#top-side{
+	width:50vw;
+	height:5vh;
+	position:fixed;
+	top:20vh;
+	left:25vw;
+}
+#bottom-side{
+	width:50vw;
+	height:5vh;
+	position:fixed;
+	bottom:20vh;
+	left:25vw;
+}
+#right-side{
+	width:5vw;
+	height:50vh;
+	position:fixed;
+	top:25vh;
+	right:20vw;
+}
+#left-side{
+	width:5vw;
+	height:50vh;
+	position:fixed;
+	top:25vh;
+	right:75vw;
+}
+#left-side-2{
+	filter: invert(100%);
+	position: fixed;
+	left:17vw;
+	top:25vh;
+	height:50vh;
+}
+#right-side-2{
+	filter: invert(100%);
+	position: fixed;
+	right:17vw;
+	top:25vh;
+	height:50vh;
+}
+#top-side-2{
+	filter: invert(100%);
+	position: fixed;
+	top:17vh;
+	left:25vw;
+	width:50vw;
+	height:8vh;
+}
+#bottom-side-2{
+	filter: invert(100%);
+	position: fixed;
+	bottom:17vh;
+	right:25vw;
+	width:50vw;
+	height:8vh;
+}
+.corner-2{
+	height:8vh;
+	width:8vw;
+	position:fixed;
+	filter: invert(100%);
+}
+#top-left-corner-2{
+	right:75vw;
+	bottom:75vh;
+}
+#bottom-left-corner-2{
+	right:75vw;
+	top:75vh;
+}
+#top-right-corner-2{
+	right:17vw;
+	bottom:75vh;
+}
+#bottom-right-corner-2{
+	right:17vw;
+	top:75vh;
+}
+#title{
+    z-index:5;
+}
+*{
+	cursor: url("images/ram-pointer.png"), pointer;
+}
+.button{
+	background-color:black;
+	border:4px solid #980000;
+	border-radius:100px 100px 100px 100px;
+	display:inline-block;
+	color:#acacac;
+	padding:0.25vw;
+	width:10vw;
+	text-align:center;
+	height:2vh;
+	line-height:2vh;
+}
+.button-container{
+	width:100%;
+	text-align:center;
+}
+#logo{
+    position:fixed;
+    top:7vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:14vh;
+    z-index:9999;
+	transition: top 1.5s;
+}
+#logo:hover{
+	top:10vh;
+}
+.input{
+	width:25vw;
+	height:2vh;
+	transition: width 1s;
+}
+.input:focus{
+	width:100%;
+}
+#center-container{
+	position:fixed;
+	width:30vw;
+	left: 50%;
+	top:50%;
+    transform: translate(-50%, -50%);
+}
+#center{
+    background-color:white;
+    width:50vw;
+    height:50vh;
+    position:fixed;
+    top:25vh;
+    left:25vw;
+}
+body{
+    background: radial-gradient(red, black);
+    font-family: 'Oswald', sans-serif;
+}
+html{
+    height:100%;
+    letter-spacing: 1px;
+}
